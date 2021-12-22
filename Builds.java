@@ -1,3 +1,8 @@
+/*
+Uses local image files
+*/
+
+
 package Main;
 
 import net.dv8tion.jda.api.EmbedBuilder;

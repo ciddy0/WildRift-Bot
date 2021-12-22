@@ -213,7 +213,7 @@ public class wildRiftBot {
     }
     public static void main(String[] args) throws LoginException, IOException {
         //builds the bot
-        JDA jda = JDABuilder.createDefault("OTE0NDMwMDUzMDQxOTc1MzI3.YaM7WQ.AGKQXSqBIuf_GhCSXBvzGzX60C8").build();
+        JDA jda = JDABuilder.createDefault("token").build();
         //sets status to idle
         jda.getPresence().setStatus(OnlineStatus.IDLE);
         //sets activity to playing wild rift

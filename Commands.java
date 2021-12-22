@@ -115,15 +115,5 @@ public class Commands extends ListenerAdapter {
             event.getChannel().sendMessageEmbeds(users.build()).queue();
             users.clear();
         }
-        if (args[0].equalsIgnoreCase(wildRiftBot.prefix + "ali")) {
-            //creates a gf embed
-            EmbedBuilder gf = new EmbedBuilder();
-
-            gf.setTitle("Aliyah Gomez");
-            gf.setImage("https://scontent-lax3-1.cdninstagram.com/v/t51.2885-15/e35/252177451_566469841090904_1047000973489075008_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=JYl6jFF0xZoAX8I0n1r&edm=AABBvjUBAAAA&ccb=7-4&oh=00_AT9CsMUYP1V2lzEEkGd6cZswj3wvaKrJoe7RvFdydA2s1g&oe=61C66741&_nc_sid=83d603");
-            gf.setColor(0x89CFF0);
-            gf.setFooter("Owned by Cid: 01-15-2021", event.getAuthor().getAvatarUrl());
-            event.getChannel().sendMessageEmbeds(gf.build()).queue();
-        }
     }
 }

@@ -33,7 +33,7 @@ public class Builds extends ListenerAdapter {
                 File file2 = new File(pathname);
                 EmbedBuilder build = new EmbedBuilder();
 
-// this URI "attachment://cat.png" references the attachment with the name "cat.png" that you pass in `addFile` below
+
                 String image = "attachment://" + champ;
                 build.setImage(image);
                 build.setTitle(champName);
@@ -43,7 +43,7 @@ public class Builds extends ListenerAdapter {
                 String thumbnail = "https://www.mobafire.com/images/champion/square/" + champ;
                 build.setThumbnail(thumbnail);
                 build.setDescription("This is just a basic build.\n You can get better builds from leaderboards\n If image does not load try the command again :)");
-                // this name does not have to be the same name the file has locally, it can be anything as long as the file extension is correct
+               
                 event.getChannel().sendMessageEmbeds(build.build())
                         .addFile(file2, champ)
                         .queue();

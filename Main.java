@@ -213,7 +213,6 @@ public class Main {
         jda.getPresence().setActivity(Activity.playing("Wild Rift"));
         //commands
         jda.addEventListener(new Commands());
-        jda.addEventListener(new Lewd());
         jda.addEventListener(new Builds());
         jda.addEventListener(new Recent());
         jda.addEventListener(new Leaderboards());

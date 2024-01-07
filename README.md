@@ -8,6 +8,6 @@ Notes:
 The Build.java (command) requires the local files of the images >.< BUT ALLL THE OTHER ONES USES ONLINE IMAGES!
 
 Issues:
-This bot currently cannot get anybody stats since I am noob and idk how :(
+Bot no longer runs since the website used to scrape peoples stats is no longer running
 
 

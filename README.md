@@ -57,7 +57,8 @@ A custom Discord bot built using the [JDA](https://github.com/DV8FromTheWorld/JD
 
 ## Example Commands
 
-Command	
+Command
+
 +build Ahri	Sends build image + guide link
 
 +leaderboards NA	Shows top 10 players + LP needed

@@ -57,9 +57,10 @@ A custom Discord bot built using the [JDA](https://github.com/DV8FromTheWorld/JD
 
 ## Example Commands
 
-Command	Result
+Command	
 +build Ahri	Sends build image + guide link
-+build Miss Fortune	Handles multi-word champions
+
 +leaderboards NA	Shows top 10 players + LP needed
+
 +leaderboards NA 2	Displays ranks 11–50
 

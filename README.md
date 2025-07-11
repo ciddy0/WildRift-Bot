@@ -16,7 +16,7 @@ A custom Discord bot built using the [JDA](https://github.com/DV8FromTheWorld/JD
 - Fetch WildStats.gg player data (level, rank, win rate, KDA, MVPs)
 - Parses dynamic script tags with JSoup for live data
 
-### 🧠 Extras
+### Extras
 - Uses regex and script parsing for win rate, KDA, and match stats
 - Fully event-driven using JDA’s `ListenerAdapter`
 - Clean embeds with timestamps and hyperlinks
@@ -24,7 +24,7 @@ A custom Discord bot built using the [JDA](https://github.com/DV8FromTheWorld/JD
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 | Tech         | Purpose                                  |
 |--------------|------------------------------------------|
